@@ -64,3 +64,9 @@ require "card_deck/face"
 require "card_deck/card"
 require "card_deck/deck"
 
+module CardDeck
+  def self.create_deck(type = :standard)
+    CardDeck::Deck.create(type)
+  end
+end
+

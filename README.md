@@ -5,6 +5,9 @@ of standard decks of playing cards.
 
 ## Installation
 
+WARNING: not yet published on an actual gemserver. These instructions
+might work someday, but if you want to use it now, install it manually.
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -23,11 +26,11 @@ Or install it yourself as:
 
 
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/pdkl95/card_deck.
-
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Author
+
+PDKL-95 (2020)
+
