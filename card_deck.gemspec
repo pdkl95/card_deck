@@ -1,14 +1,14 @@
-require_relative 'lib/card_decks/version'
+require_relative 'lib/card_deck/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "card_decks"
-  spec.version       = CardDecks::VERSION
+  spec.name          = "card_deck"
+  spec.version       = CardDeck::VERSION
   spec.authors       = ["Brent Sanders"]
   #spec.email         = ["git@thoughtnoise.net"]
 
   spec.summary       = %q{Deck-of-Cards classes}
   spec.description   = %q{A set of classes that implement the common features of standard decks of playing cards.}
-  spec.homepage      = "https://github.com/pdkl95/card_decks"
+  spec.homepage      = "https://github.com/pdkl95/card_deck"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 

@@ -1,3 +1,3 @@
-module CardDecks
+module CardDeck
   VERSION = "0.1.0"
 end
