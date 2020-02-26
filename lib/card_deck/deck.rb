@@ -79,8 +79,13 @@ module CardDeck
       end
     end
 
-    def to_s_small_rows
-      to_s split: :auto, joiner: ' ', split_joiner: "\n"
+    def to_s_small_rows(opt = {})
+      default_opt = {
+        split: :auto,
+        joiner: ' ',
+        split_joiner: "\n"
+      }
+      to_s(default_opt.merge(opt))
     end
 
     def inspect
